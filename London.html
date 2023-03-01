@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trapstar London</title>
+    <link rel="stylesheet" href="London.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+      }
+      
+      .image-container {
+        position: relative;
+      }
+   
+      #imagem1 {
+        width: 25%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        top: 100px;
+        left: 950px;
+      }
+
+      #imagem2 {
+        width: 25%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        top: 700px;
+        left: 100px;
+      }
+      
+      .texto-imagem {
+        position: absolute;
+        top: 200px;
+        right: 700px;
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        background-color: rgb(0, 0, 0);
+        font-size: 50px;
+      }
+
+      .texto-imagem h2 {
+        font-family: 'lato', cursive;
+        font-size: 80px;
+      }
+      
+      .texto-imagem p {
+        margin-top: -30px;
+        margin-left: 10px;
+        font-size: 22px;
+      }
+
+      .links-container a {
+        display: inline-block;
+        margin-right: -250px;
+        margin-top: 30px;
+        margin-left: 350px;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        outline: none;
+      }
+      
+      .trapstar-icon {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -5px;
+        right: 1215px;
+        left: auto;
+      }
+            
+      .outro-titulo {
+        position: absolute;
+        top: 650px;
+        left: 500px;
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        background-color: rgb(0, 0, 0);
+        font-size: 50px;
+      }
+
+      .outro-titulo h2 {
+        position: absolute;
+        top: -10px;
+        left: 300px;
+        font-family: 'lato', cursive;
+        font-size: 80px;
+      }
+      
+      .outro-titulo p {
+        position: absolute;
+        top: 170px;
+        left: 150px;
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        background-color: rgb(0, 0, 0);
+        font-size: 22px;
+        white-space: nowrap;
+      }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: black;
+        }
+
+        .mobile-only {
+          position: absolute;
+          top: 20.33%;
+          left: 5.33%;
+          color: rgb(255, 255, 255);
+          z-index: 2;
+          background-color: rgb(0, 0, 0);
+          font-size: 3.33vw;
+        }
+
+        .mobile-only h2 {
+          font-family: 'lato', cursive;
+          font-size: 15vw;
+        }
+
+        .mobile-only p {
+          margin-top: -5%;
+          margin-left: 1%;
+          font-size: 5vw;
+          white-space: nowrap;
+        }
+
+        .mobileimage-container {
+          position: relative;
+        }
+                 
+        #imagem3 {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+          position: absolute;
+          top: 390px;
+          left: 0px;
+        }
+      }
+      
+      @media only screen and (min-width: 601px) {
+          #imagem3 {
+          display: none;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="links-container">
+      <span><a href="https://www.google.com">Casacos</a></span>
+      <span><a href="https://www.facebook.com">Calças</a></span>
+      <span><a href="https://www.instagram.com">Bags</a></span>
+      <span><a href="https://www.instagram.com">História</a></span>
+    </div>
+    <div class="image-container">
+      <img src="1img.jpg" id="imagem1">
+      <img src="2img.jpg" id="imagem2">
+    </div>
+     <div class="mobileimage-container">
+      <img src="3img.jpg" id="imagem3">
+     </div>
+      <div class="texto-imagem">          
+        <h2>Trapstar London</h2>
+        <p>A maior marca de roupas britanica e uma das maiores do mundo. <br> ande na moda, ande com Trapstar London.</p>
+      </div>
+      <div class="mobile-only">
+        <h2>Trapstar London</h2>
+        <p>A maior marca de roupas britanica <br> e uma das maiores do mundo. ande <br> na moda, ande com Trapstar London.
+      </div>
+      <div class="outro-titulo">
+        <h2>Historia</h2>
+        <p>A marca Trapstar London é uma marca britânica de streetwear fundada <br> em 2003 por Mikey Trapstar e Lee Trapstar em Londres. A marca ganhou <br> fama por ser usada por celebridades como Rihanna, Jay-Z, Beyoncé, <br> Chris Brown e Pharrell Williams. <br> <br> A história da marca teve início com a venda de camisetas customizadas <br> feitas em casa pelos irmãos Mikey e Lee. Eles começaram vendendo suas <br> camisetas em feiras e festas locais em Londres, e rapidamente ganharam <br> popularidade na cena do hip hop e do grime. </p>
+    </div>
+    <a href="https://www.instagram.com/cocacola/">
+        <img class="trapstar-icon" src="TL Logo.png" alt="Trapstar">
+    </a>
+    <script src="javascript/London-1.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

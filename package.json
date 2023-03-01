@@ -1,0 +1,14 @@
+{
+  "name": "projecttl",
+  "version": "1.0.0",
+  "description": "Teste de pagina institucional com Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,12 @@
+.image-container {
+  position: relative;
+}
+  
+.texto-imagem {
+  position: absolute;
+  top: 340px;
+  right: 130px;
+  color: white;
+  z-index: 2;
+  background-color: rgb(0, 0, 0);
+}
