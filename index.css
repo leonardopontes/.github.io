@@ -135,6 +135,22 @@
   #imagem1 {
     display: none;
   }
+
+ .links-container a {
+    display: none;
+  }
+
+  .outro-titulo {
+    display: none;
+  }
+
+  .outro-titulo h2 {
+    display: none;
+  }
+
+  .outro-titulo p {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 601px) {
